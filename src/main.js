@@ -8,6 +8,8 @@ import fastClick from 'fastclick'
 import './assets/styles/reset.css'
 // 2px边框问题解决方案
 import './assets/styles/border.css'
+// 引入字体如图标
+import './assets/font_1853796_x5pw6m53vu/iconfont.css'
 
 Vue.config.productionTip = false
 fastClick.attach(document.body)

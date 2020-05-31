@@ -1,12 +1,17 @@
 <template>
   <div>
-    <div>home</div>
-    <a href="javascrip:;">aaaa</a>
+    <home-header></home-header>
   </div>
 </template>
 
 <script>
-export default {}
+import HomeHeader from './components/Header'
+export default {
+  name: 'Home',
+  components: {
+    HomeHeader
+  }
+}
 </script>
 
 <style lang="less" scoped>
