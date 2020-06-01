@@ -10,9 +10,14 @@ import './assets/styles/reset.css'
 import './assets/styles/border.css'
 // 引入字体如图标
 import './assets/font_1853796_x5pw6m53vu/iconfont.css'
+// 引入轮播图依赖
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
+
 
 Vue.config.productionTip = false
 fastClick.attach(document.body)
+Vue.use(VueAwesomeSwiper)
 
 new Vue({
   router,
